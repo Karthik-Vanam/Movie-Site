@@ -1,8 +1,7 @@
 This project is a React.js Movie Explorer application that allows users to browse popular movies, search films, and manage a personalized list of favorite movies.
 
-<br/>
 🔥 Features
-<br/>
+
 Browse Popular Movies: Fetches trending films from TheMovieDB API when the app loads.
 
 Search Functionality: Users can search for movies by title using the TMDB search endpoint.
@@ -16,9 +15,9 @@ React Context API: Global movie state (favorites list, add/remove functions, che
 Reusable UI Components: Includes MovieCard component for all movie listings and a Favorites page to display saved movies.
 
 Responsive Layout: Clean grid layout for both Home and Favorites pages.
-<br/>
+
 🧩 Core Architecture
-<br/>
+
 Home Page:
 
 Fetches popular movies using getPopularMovies().
@@ -26,29 +25,29 @@ Fetches popular movies using getPopularMovies().
 Handles movie search using searchMovies(query).
 
 Renders results using MovieCard components.
-<br/>
+
 Favorites Page:
-<br/>
+
 Reads favorites from MovieContext.
 
 Displays the user’s saved movies in a grid layout.
-<br/>
+
 MovieContext:
-<br/>
+
 Stores favorites array globally.
 
 Provides functions: addToFavorites, removeFromFavorites, and isFavorite.
 
 Syncs favorites to localStorage.
-<br/>
+
 MovieCard Component:
-<br/>
+
 Displays poster, title, release year.
 
 Heart button toggles favorites.
-<br/>
+
 🛠️ Tech Stack
-<br/>
+
 React.js (Hooks, Context API)
 
 JavaScript (ES6+)
