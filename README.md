@@ -1,4 +1,5 @@
 This project is a React.js Movie Explorer application that allows users to browse popular movies, search films, and manage a personalized list of favorite movies.
+
 <br/>
 🔥 Features
 <br/>
